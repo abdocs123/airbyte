@@ -70,7 +70,7 @@ Core changelogs should be updated in the `docs/project-overview/platform.md` fil
 
 #### Connectors
 
-Each connector should have a CHANGELOG.md section in its public facing docs in the `docs/integrations/<sources OR destinations>/<name>` at the bottom of the page. Inside, each new connector version should have a section whose title is the connector's version number. The body of this section should describe the changes added in the new version. For example:
+Each connector should have a CHANGELOG.md section in its public facing docs in the `docs/connector-catalog/<sources OR destinations>/<name>` at the bottom of the page. Inside, each new connector version should have a section whose title is the connector's version number. The body of this section should describe the changes added in the new version. For example:
 
 ```text
 | Version | Date       | Pull Request | Subject |

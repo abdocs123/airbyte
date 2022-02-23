@@ -1,0 +1,3 @@
+# Destinations
+
+Data warehouses, data lakes, databases...

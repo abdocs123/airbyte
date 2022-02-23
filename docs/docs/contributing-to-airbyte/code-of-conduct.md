@@ -1,9 +1,10 @@
 ---
 sidebar_position: 1
-description: Our Community Code of Conduct
 ---
 
 # Code of Conduct
+
+Our Community Code of Conduct
 
 ## Our Pledge
 

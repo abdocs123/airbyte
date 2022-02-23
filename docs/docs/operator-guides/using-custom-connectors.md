@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Using custom connectors
+# Using Custom Connectors
 If our connector catalog does not fulfill your needs, you can build your own Airbyte connectors. 
 There are two approaches you can take while jumping on connector development project:
 1. You want to build a connector for an **external** source or destination (public API, off-the-shelf DBMS, data warehouses, etc.). In this scenario, your connector development will probably benefit the community. The right way is to open a PR on our repo to add your connector to our catalog. You will then benefit from an Airbyte team review and potential future improvements and maintenance from the community.

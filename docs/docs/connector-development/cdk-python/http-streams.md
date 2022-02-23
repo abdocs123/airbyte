@@ -11,7 +11,7 @@ The CDK offers base classes that greatly simplify writing HTTP API-based connect
 * Handling rate limiting with static or dynamic backoff timing
 * Caching
 
-All these features have sane off-the-shelf defaults but are completely customizable depending on your use case. They can also be combined with other stream features described in the [full refresh streams](full-refresh-stream.md) and [incremental streams](incremental-stream.md) sections.
+All these features have sane off-the-shelf defaults but are completely customizable depending on your use case. They can also be combined with other stream features described in the [full refresh streams](./full-refresh-stream.md) and [incremental streams](./incremental-stream.md) sections.
 
 ## Overview of HTTP Streams
 

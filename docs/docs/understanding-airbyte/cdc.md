@@ -34,9 +34,9 @@ We add some metadata columns for CDC sources:
 
 ## Current Support
 
-* [Postgres](../integrations/sources/postgres.md) \(For a quick video overview of CDC on Postgres, click [here](https://www.youtube.com/watch?v=NMODvLgZvuE&ab_channel=Airbyte)\)
-* [MySQL](../integrations/sources/mysql.md)
-* [Microsoft SQL Server / MSSQL](../integrations/sources/mssql.md)
+* [Postgres](../connector-catalog/sources/postgres.md) \(For a quick video overview of CDC on Postgres, click [here](https://www.youtube.com/watch?v=NMODvLgZvuE&ab_channel=Airbyte)\)
+* [MySQL](../connector-catalog/sources/mysql.md)
+* [Microsoft SQL Server / MSSQL](../connector-catalog/sources/mssql.md)
 
 ## Coming Soon
 

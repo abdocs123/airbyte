@@ -1,13 +1,13 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # API documentation
 
-{% hint style="warning" %}
+:::caution
 For Airbyte Open-Source you don't need the API Token for Authentication!
 All endpoints are possible to access using the API without it.
-{% endhint %}
+:::
 
 Our Configuration API is still in alpha and might change. You won’t lose any functionality, but you may need to update your code to catch up to any backwards incompatible changes in the API.
 

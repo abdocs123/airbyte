@@ -62,19 +62,19 @@ The output we expect to see in the warehouse is as follows:
 
 ## Source-Defined Cursor
 
-Some sources are able to determine the cursor that they use without any user input. For example, in the [exchange rates source](../../integrations/sources/exchangeratesapi.md), the source knows that the date field should be used to determine the last record that was synced. In these cases, simply select the incremental option in the UI.
+Some sources are able to determine the cursor that they use without any user input. For example, in the [exchange rates source](../../connector-catalog/sources/exchangeratesapi.md), the source knows that the date field should be used to determine the last record that was synced. In these cases, simply select the incremental option in the UI.
 
 ![](../../.gitbook/assets/incremental_source_defined.png)
 
-\(You can find a more technical details about the configuration data model [here](../catalog.md)\).
+You can find a more technical details about the configuration data model [here](../airbyte-catalog-reference.md).
 
 ## User-Defined Cursor
 
-Some sources cannot define the cursor without user input. For example, in the [postgres source](../../integrations/sources/postgres.md), the user needs to choose which column in a database table they want to use as the `cursor field`. In these cases, select the column in the sync settings dropdown that should be used as the `cursor field`.
+Some sources cannot define the cursor without user input. For example, in the [postgres source](../../connector-catalog/sources/postgres.md), the user needs to choose which column in a database table they want to use as the `cursor field`. In these cases, select the column in the sync settings dropdown that should be used as the `cursor field`.
 
 ![](../../.gitbook/assets/incremental_user_defined.png)
 
-\(You can find a more technical details about the configuration data model [here](../catalog.md)\).
+You can find a more technical details about the configuration data model [here](../airbyte-catalog-reference.md).
 
 ## Getting the Latest Snapshot of data
 

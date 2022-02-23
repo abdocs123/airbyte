@@ -13,9 +13,9 @@ The following technologies are required to build Airbyte locally.
 5. `Postgresql`
 6. `Jq`
 
-{% hint style="info" %}
+:::info
 Manually switching between different language versions can get hairy. We recommend using a version manager such as [`pyenv`](https://github.com/pyenv/pyenv) or [`jenv`](https://github.com/jenv/jenv).
-{% endhint %}
+:::
 
 To start contributing:
 
@@ -37,7 +37,7 @@ To compile and build just the platform \(not all the connectors\):
 SUB_BUILD=PLATFORM ./gradlew build
 ```
 
-{% hint style="info" %}
+:::info
 If you're using Mac M1 \(Apple Silicon\) machines, it is possible to compile Airbyte by setting
 some additional environment variables:
 
@@ -52,28 +52,28 @@ SUB_BUILD=PLATFORM ./gradlew build
 
 There are some known issues (Temporal failing during runs, and some connectors not working). See the [GitHub issue](https://github.com/airbytehq/airbyte/issues/2017) for more information.
 
-{% endhint %}
+:::
 
 This will build all the code and run all the unit tests.
 
 `SUB_BUILD=PLATFORM ./gradlew build` creates all the necessary artifacts \(Webapp, Jars and Docker images\) so that you can run Airbyte locally. Since this builds everything, it can take some time.
 
-{% hint style="info" %}
+:::info
 Gradle will use all CPU cores by default. If Gradle uses too much/too little CPU, tuning the number of CPU cores it uses to better suit a dev's need can help.
 
 Adjust this by either, 1. Setting an env var: `export GRADLE_OPTS="-Dorg.gradle.workers.max=3"`. 2. Setting a cli option: `SUB_BUILD=PLATFORM ./gradlew build --max-workers 3` 3. Setting the `org.gradle.workers.max` property in the `gradle.properties` file.
 
 A good rule of thumb is to set this to \(\# of cores - 1\).
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 On Mac, if you run into an error while compiling openssl \(this happens when running pip install\), you may need to explicitly add these flags to your bash profile so that the C compiler can find the appropriate libraries.
 
 ```text
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 ```
-{% endhint %}
+:::
 
 ## Run in `dev` mode with `docker-compose`
 

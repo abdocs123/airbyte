@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Full Refresh Streams
 
-As mentioned in the [Basic Concepts Overview](basic-concepts.md), a `Stream` is the atomic unit for reading data from a Source. A stream can read data from anywhere: a relational database, an API, or even scrape a web page! \(although that might be stretching the limits of what a connector should do\).
+As mentioned in the [Basic Concepts Overview](./basic-concepts.md), a `Stream` is the atomic unit for reading data from a Source. A stream can read data from anywhere: a relational database, an API, or even scrape a web page! \(although that might be stretching the limits of what a connector should do\).
 
 To implement a stream, there are two minimum requirements: 1. Define the stream's schema 2. Implement the logic for reading records from the underlying data source
 
@@ -43,5 +43,5 @@ The only method required to implement a `Stream` is `Stream.read_records`. Given
 
 ## Incremental Streams
 
-We highly recommend implementing Incremental when feasible. See the [incremental streams page](incremental-stream.md) for more information.
+We highly recommend implementing Incremental when feasible. See the [incremental streams page](./incremental-stream.md) for more information.
 

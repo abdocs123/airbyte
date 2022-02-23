@@ -679,7 +679,7 @@ Other progress on connectors:
   * Enhanced continuous testing for Tempo and Looker sources
 * Other fixes / features:
   * Correctly handle boolean types in the File Source
-  * Add docs for [App Store](https://docs.airbyte.io/integrations/sources/appstore) source
+  * Add docs for [App Store](https://docs.airbyte.io/connector-catalog/sources/appstore) source
   * Fix a bug in Snowflake destination where the connector didn’t check for all needed write permissions, causing some syncs to fail
 
 ## 01/26/2021
@@ -690,7 +690,7 @@ Other progress on connectors:
 
 ## 01/19/2021
 
-* **Our new** [**Connector Health Grade**](../../integrations/) **page**
+* **Our new** [**Connector Health Grade**](../../connector-catalog/) **page**
 * **1 new source:** App Store \(thanks to [@Muriloo](https://github.com/Muriloo)\)
 * Fixes on connectors:
   * Bug fix writing boolean columns to Redshift
@@ -700,14 +700,14 @@ Other progress on connectors:
 ## 01/12/2021
 
 * **1 new source:** Tempo \(thanks to [@thomasvl](https://github.com/thomasvl)\)
-* **Incremental support for 3 new source connectors:** [Salesforce](../../integrations/sources/salesforce.md), [Slack](../../integrations/sources/slack.md) and [Braintree](../../integrations/sources/braintree.md)
+* **Incremental support for 3 new source connectors:** [Salesforce](../../connector-catalog/sources/salesforce.md), [Slack](../../connector-catalog/sources/slack.md) and [Braintree](../../connector-catalog/sources/braintree.md)
 * Fixes on connectors:
   * Fix a bug in MSSQL and Redshift source connectors where custom SQL types weren't being handled correctly.
   * Improvement of the Snowflake connector from [@hudsondba](https://github.com/hudsondba) \(batch size and timeout sync\)
 
 ## 01/05/2021
 
-* **Incremental support for 2 new source connectors:** [Mixpanel](../../integrations/sources/mixpanel.md) and [HubSpot](../../integrations/sources/hubspot.md)
+* **Incremental support for 2 new source connectors:** [Mixpanel](../../connector-catalog/sources/mixpanel.md) and [HubSpot](../../connector-catalog/sources/hubspot.md)
 * Fixes on connectors:
   * Fixed a bug in the github connector where the connector didn’t verify the provided API token was granted the correct permissions
   * Fixed a bug in the Google sheets connector where rate limits were not always respected
@@ -715,65 +715,65 @@ Other progress on connectors:
 
 ## 12/30/2020
 
-**New sources:** [Plaid](../../integrations/sources/plaid.md) \(contributed by [tgiardina](https://github.com/tgiardina)\), [Looker](../../integrations/sources/looker.md)
+**New sources:** [Plaid](../../connector-catalog/sources/plaid.md) \(contributed by [tgiardina](https://github.com/tgiardina)\), [Looker](../../connector-catalog/sources/looker.md)
 
 ## 12/18/2020
 
-**New sources:** [Drift](../../integrations/sources/drift.md), [Microsoft Teams](../../integrations/sources/microsoft-teams.md)
+**New sources:** [Drift](../../connector-catalog/sources/drift.md), [Microsoft Teams](../../connector-catalog/sources/microsoft-teams.md)
 
 ## 12/10/2020
 
-**New sources:** [Intercom](../../integrations/sources/intercom.md), [Mixpanel](../../integrations/sources/mixpanel.md), [Jira Cloud](../../integrations/sources/jira.md), [Zoom](../../integrations/sources/zoom.md)
+**New sources:** [Intercom](../../connector-catalog/sources/intercom.md), [Mixpanel](../../connector-catalog/sources/mixpanel.md), [Jira Cloud](../../connector-catalog/sources/jira.md), [Zoom](../../connector-catalog/sources/zoom.md)
 
 ## 12/07/2020
 
-**New sources:** [Slack](../../integrations/sources/slack.md), [Braintree](../../integrations/sources/braintree.md), [Zendesk Support](../../integrations/sources/zendesk-support.md)
+**New sources:** [Slack](../../connector-catalog/sources/slack.md), [Braintree](../../connector-catalog/sources/braintree.md), [Zendesk Support](../../connector-catalog/sources/zendesk-support.md)
 
 ## 12/04/2020
 
-**New sources:** [Redshift](../../integrations/sources/redshift.md), [Greenhouse](../../integrations/sources/greenhouse.md) **New destination:** [Redshift](../../integrations/destinations/redshift.md)
+**New sources:** [Redshift](../../connector-catalog/sources/redshift.md), [Greenhouse](../../connector-catalog/sources/greenhouse.md) **New destination:** [Redshift](../../connector-catalog/destinations/redshift.md)
 
 ## 11/30/2020
 
-**New sources:** [Freshdesk](../../integrations/sources/freshdesk.md), [Twilio](../../integrations/sources/twilio.md)
+**New sources:** [Freshdesk](../../connector-catalog/sources/freshdesk.md), [Twilio](../../connector-catalog/sources/twilio.md)
 
 ## 11/25/2020
 
-**New source:** [Recurly](../../integrations/sources/recurly.md)
+**New source:** [Recurly](../../connector-catalog/sources/recurly.md)
 
 ## 11/23/2020
 
-**New source:** [Sendgrid](../../integrations/sources/sendgrid.md)
+**New source:** [Sendgrid](../../connector-catalog/sources/sendgrid.md)
 
 ## 11/18/2020
 
-**New source:** [Mailchimp](../../integrations/sources/mailchimp.md)
+**New source:** [Mailchimp](../../connector-catalog/sources/mailchimp.md)
 
 ## 11/13/2020
 
-**New source:** [MSSQL](../../integrations/sources/mssql.md)
+**New source:** [MSSQL](../../connector-catalog/sources/mssql.md)
 
 ## 11/11/2020
 
-**New source:** [Shopify](../../integrations/sources/shopify.md)
+**New source:** [Shopify](../../connector-catalog/sources/shopify.md)
 
 ## 11/09/2020
 
-**New sources:** [Files \(CSV, JSON, HTML...\)](../../integrations/sources/file.md)
+**New sources:** [Files \(CSV, JSON, HTML...\)](../../connector-catalog/sources/file.md)
 
 ## 11/04/2020
 
-**New sources:** [Facebook Ads](connectors.md), [Google Ads](../../integrations/sources/google-adwords.md), [Marketo](../../integrations/sources/marketo.md) **New destination:** [Snowflake](../../integrations/destinations/snowflake.md)
+**New sources:** [Facebook Ads](connectors.md), [Google Ads](../../connector-catalog/sources/google-adwords.md), [Marketo](../../connector-catalog/sources/marketo.md) **New destination:** [Snowflake](../../connector-catalog/destinations/snowflake.md)
 
 ## 10/30/2020
 
-**New sources:** [Salesforce](../../integrations/sources/salesforce.md), Google Analytics, [HubSpot](../../integrations/sources/hubspot.md), [GitHub](../../integrations/sources/github.md), [Google Sheets](../../integrations/sources/google-sheets.md), [Rest APIs](connectors.md), and [MySQL](../../integrations/sources/mysql.md)
+**New sources:** [Salesforce](../../connector-catalog/sources/salesforce.md), Google Analytics, [HubSpot](../../connector-catalog/sources/hubspot.md), [GitHub](../../connector-catalog/sources/github.md), [Google Sheets](../../connector-catalog/sources/google-sheets.md), [Rest APIs](connectors.md), and [MySQL](../../connector-catalog/sources/mysql.md)
 
 ## 10/21/2020
 
-**New destinations:** we built our own connectors for [BigQuery](../../integrations/destinations/bigquery.md) and [Postgres](../../integrations/destinations/postgres.md), to ensure they are of the highest quality.
+**New destinations:** we built our own connectors for [BigQuery](../../connector-catalog/destinations/bigquery.md) and [Postgres](../../connector-catalog/destinations/postgres.md), to ensure they are of the highest quality.
 
 ## 09/23/2020
 
-**New sources:** [Stripe](../../integrations/sources/stripe.md), [Postgres](../../integrations/sources/postgres.md) **New destinations:** [BigQuery](../../integrations/destinations/bigquery.md), [Postgres](../../integrations/destinations/postgres.md), [local CSV](../../integrations/destinations/local-csv.md)
+**New sources:** [Stripe](../../connector-catalog/sources/stripe.md), [Postgres](../../connector-catalog/sources/postgres.md) **New destinations:** [BigQuery](../../connector-catalog/destinations/bigquery.md), [Postgres](../../connector-catalog/destinations/postgres.md), [local CSV](../../connector-catalog/destinations/local-csv.md)
 

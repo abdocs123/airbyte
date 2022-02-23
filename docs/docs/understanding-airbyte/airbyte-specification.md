@@ -15,11 +15,11 @@ sidebar_position: 3
 
 #### Contents:
 
-1. [General information about the specification](airbyte-specification.md#general)
-2. [Connector primitives](airbyte-specification.md#primitives)
-3. [Details of the protocol to pass information between connectors](airbyte-specification.md#the-airbyte-protocol)
+1. [General information about the specification](./airbyte-specification.md#general)
+2. [Connector primitives](./airbyte-specification.md#primitives)
+3. [Details of the protocol to pass information between connectors](./airbyte-specification.md#the-airbyte-protocol)
 
-This document is focused on the interfaces and primitives around connectors. You can better understand how that fits into the bigger picture by checking out the [High-level View](high-level-view.md).
+This document is focused on the interfaces and primitives around connectors. You can better understand how that fits into the bigger picture by checking out the [High-level View](./high-level-view.md).
 
 ## General
 
@@ -170,7 +170,7 @@ read(Config, ConfiguredAirbyteCatalog, State) -> Stream<AirbyteMessage>
 
 * Input:
   1. `config` - A configuration JSON object that has been validated using the `ConnectorSpecification`.
-  2. `catalog` - A `ConfiguredAirbyteCatalog`. This `catalog` should be constructed from the `catalog` returned by the `discover` command. To convert an `AirbyteStream` to a `ConfiguredAirbyteStream` copy the `AirbyteStream` into the stream field of the `ConfiguredAirbyteStream`. Any additional configurations can be specified in the `ConfiguredAirbyteStream`. More details on how this is configured in the [catalog documentation](catalog.md). This catalog will be used in the `read` command to both select what data is transferred and how it is replicated.
+  2. `catalog` - A `ConfiguredAirbyteCatalog`. This `catalog` should be constructed from the `catalog` returned by the `discover` command. To convert an `AirbyteStream` to a `ConfiguredAirbyteStream` copy the `AirbyteStream` into the stream field of the `ConfiguredAirbyteStream`. Any additional configurations can be specified in the `ConfiguredAirbyteStream`. More details on how this is configured in the [catalog documentation](./airbyte-specification.md). This catalog will be used in the `read` command to both select what data is transferred and how it is replicated.
   3. `state` - A JSON object. This object is only ever written or read by the source, so it is a JSON blob with whatever information is necessary to keep track of how much of the data source has already been read. This is important whenever we need to replicate data with Incremental sync modes such as [Incremental Append](connections/incremental-append.md) or [Incremental Deduped History](connections/incremental-deduped-history.md). Note that this is not currently based on the state of data existing on the destination side.
 * Output:
   1. `message stream` - A stream of `AirbyteRecordMessage`s and `AirbyteStateMessage`s piped to stdout.

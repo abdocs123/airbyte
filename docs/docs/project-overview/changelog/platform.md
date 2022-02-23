@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Be sure to not miss out on new features and improvements!
 
-This is the changelog for Airbyte Platform. For our connector changelog, please visit our [Connector Changelog](connectors.md) page.
+This is the changelog for Airbyte Platform. For our connector changelog, please visit our [Connector Changelog](./connectors.md) page.
 
 ## [20-12-2021 - 0.32.5](https://github.com/airbytehq/airbyte/releases/tag/v0.32.5-alpha)
 * Add an endpoint that specify that the feedback have been given after the first sync.
@@ -70,16 +70,16 @@ This is the changelog for Airbyte Platform. For our connector changelog, please 
 ## [10-21-2021 - 0.30.22](https://github.com/airbytehq/airbyte/releases/tag/v0.30.22-alpha)
 * We now support experimental deployment of Airbyte on Macbooks with M1 chips!
 
-{% hint style="info" %}
+:::info
 This interim patch period mostly contained stability changes for Airbyte Cloud, so we skipped from `0.30.16` to `0.30.22`.
-{% endhint %}
+:::
 
 ## [10-07-2021 - 0.30.16](https://github.com/airbytehq/airbyte/releases/tag/v0.30.16-alpha)
 * On Kubernetes deployments, you can now configure the Airbyte Worker Pod's image pull policy.
 
-{% hint style="info" %}
+:::info
 This interim patch period mostly contained stability changes for Airbyte Cloud, so we skipped from `0.30.2` to `0.30.16`.
-{% endhint %}
+:::
 
 ## [09-30-2021 - 0.30.2](https://github.com/airbytehq/airbyte/releases/tag/v0.30.2-alpha)
 * Fixed a bug that would fail Airbyte upgrades for deployments with sync notifications.
@@ -361,7 +361,9 @@ This interim patch period mostly contained stability changes for Airbyte Cloud, 
 
 * We now handle nested tables with the normalization steps. Check out the video below to see how it works. 
 
-{% embed url="https://youtu.be/I4fngMnkJzY" caption="" %}
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I4fngMnkJzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ng-show="showvideo"></iframe>
+</p>
 
 ## [02-12-2021 - 0.14](https://github.com/airbytehq/airbyte/milestone/21?closed=1)
 

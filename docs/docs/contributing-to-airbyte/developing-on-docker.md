@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Developing on docker
+# Developing on Docker
 
 ## Incrementality 
 

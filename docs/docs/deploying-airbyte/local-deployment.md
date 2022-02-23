@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Local Deployment
 
-{% hint style="info" %}
+:::info
 These instructions have been tested on MacOS, Windows 10 and Ubuntu 20.04.
-{% endhint %}
+:::
 
 ## Setup & launch Airbyte
 

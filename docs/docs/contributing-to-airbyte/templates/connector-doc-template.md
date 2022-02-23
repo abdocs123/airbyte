@@ -1,10 +1,7 @@
----
-description: >-
-  This is the template that should be used when adding documentation for a new
-  connector.
----
-
 # Connector Doc Template
+
+This is the template that should be used when adding documentation for a new
+connector.
 
 ## Sync overview
 

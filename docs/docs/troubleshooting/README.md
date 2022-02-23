@@ -4,10 +4,10 @@ Our FAQ is now a section on our Discourse forum. Check it out [here](https://dis
 
 The troubleshooting section is aimed at collecting common issues users have to provide quick solutions. There are some sections you can find:
 
-* [On Deploying](on-deploying.md): 
-* [On Setting up a New Connection](new-connection.md)
-* [On Running a Sync](running-sync.md)
-* [On Upgrading](on-upgrading.md)
+* [On Deploying](./on-deploying.md): 
+* [On Setting up a New Connection](./new-connection.md)
+* [On Running a Sync](./running-sync.md)
+* [On Upgrading](./on-upgrading.md)
 
 If you don't see your issue listed in those sections, you can send a message in our \#troubleshooting Slack channel. Using the template bellow will allow us to address your issue quickly and will give us full understanding of your situation.
 

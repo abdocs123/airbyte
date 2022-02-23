@@ -85,9 +85,9 @@ this will display a multi-line textbox in the UI like the following screenshot: 
 
 In some cases, a connector needs to accept one out of many options. For example, a connector might need to know the compression codec of the file it will read, which will render in the Airbyte UI as a list of the available codecs. In JSONSchema, this can be expressed using the [oneOf](https://json-schema.org/understanding-json-schema/reference/combining.html#oneof) keyword.
 
-{% hint style="info" %}
+:::info
 Some connectors may follow an older format for dropdown lists, we are currently migrating away from that to this standard.
-{% endhint %}
+:::
 
 In order for the Airbyte UI to correctly render a specification, however, a few extra rules must be followed:
 
@@ -95,7 +95,7 @@ In order for the Airbyte UI to correctly render a specification, however, a few 
 2. Each item in the `oneOf` array must be a property with `type: object`.
 3. One `string` field with the same property name must be consistently present throughout each object inside the `oneOf` array. It is required to add a [`const`](https://json-schema.org/understanding-json-schema/reference/generic.html#constant-values) value unique to that `oneOf` option.
 
-Let's look at the [source-file](../integrations/sources/file.md) implementation as an example. In this example, we have `provider` as a dropdown list option, which allows the user to select what provider their file is being hosted on. We note that the `oneOf` keyword lives under the `provider` object as follows:
+Let's look at the [source-file](../connector-catalog/sources/file.md) implementation as an example. In this example, we have `provider` as a dropdown list option, which allows the user to select what provider their file is being hosted on. We note that the `oneOf` keyword lives under the `provider` object as follows:
 
 In each item in the `oneOf` array, the `option_title` string field exists with the aforementioned `const`, `default` and `enum` value unique to that item. There is a [Github issue](https://github.com/airbytehq/airbyte/issues/6384) to improve it and use only `const` in the specification. This helps the UI and the connector distinguish between the option that was chosen by the user. This can be displayed with adapting the file source spec to this example:
 

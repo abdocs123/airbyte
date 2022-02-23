@@ -12,7 +12,7 @@ As a reference point, the typical Airbyte user has 5 - 20 connectors and 10 - 10
 
 ## What To Scale
 
-[Workers](../understanding-airbyte/jobs.md) do all the heavy lifting within Airbyte. A worker is responsible for executing Airbyte operations \(e.g. Discover, Read, Sync etc\), and is created on demand whenever these operations are requested. Thus, every job has a corresponding worker executing its work.
+[Workers](../understanding-airbyte/workers-and-jobs.md) do all the heavy lifting within Airbyte. A worker is responsible for executing Airbyte operations \(e.g. Discover, Read, Sync etc\), and is created on demand whenever these operations are requested. Thus, every job has a corresponding worker executing its work.
 
 How a worker executes work depends on the Airbyte deployment. In the Docker deployment, an Airbyte worker spins up at least one Docker container. In the Kubernetes deployment, an Airbyte worker will create at least one Kubernetes pod. The created resource \(Docker container or Kubernetes pod\) does all the actual work.
 

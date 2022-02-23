@@ -10,7 +10,7 @@ Airbyte allows scaling sync workloads horizontally using Kubernetes. The core co
 
 ## Quickstart
 
-If you don't want to configure your own K8s cluster and Airbyte instance, you can use the free, open-source project [Plural](https://www.plural.sh/) to bring up a K8s cluster and Airbyte for you. Use [this guide](on-plural.md) to get started.
+If you don't want to configure your own K8s cluster and Airbyte instance, you can use the free, open-source project [Plural](https://www.plural.sh/) to bring up a K8s cluster and Airbyte for you. Use [this guide](./on-plural.md) to get started.
 
 ## Getting Started
 
@@ -173,7 +173,7 @@ Airbyte publishes logs every minute. This means it is normal to see minute-long 
 
 Each log file is named `{yyyyMMddHH24mmss}_{podname}_{UUID}` and is not compressed. Users can view logs simply by navigating to the relevant folder and downloading the file for the time period in question.
 
-See the [Known Issues](on-kubernetes.md#known-issues) section for planned logging improvements.
+See the [Known Issues](./on-kubernetes.md#known-issues) section for planned logging improvements.
 
 ### Using an external DB
 

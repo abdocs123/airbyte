@@ -1,9 +1,10 @@
 ---
 sidebar_position: 6
-description: Start triggering Airbyte jobs with Prefect in minutes
 ---
 
-# Using the Prefect Airbyte Task
+# Using the Prefect Task
+
+Start triggering Airbyte jobs with Prefect in minutes
 
 Airbyte is an official integration Task in the Prefect project. The Airbyte Task allows you to trigger synchronization jobs in Prefect, and this tutorial will walk through configuring your Prefect Flow to do so.
 

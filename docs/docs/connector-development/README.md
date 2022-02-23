@@ -16,7 +16,7 @@ You can build a connector very quickly in C# .NET with the [Airbyte Dotnet CDK](
 
 ## TS/JS Connector-Development Kit \(Faros AI Airbyte CDK\)
 
-You can build a connector in TypeScript/JavaScript with the [Faros AI CDK](https://github.com/airbytehq/airbyte/tree/01b905a38385ca514c2d9c07cc44a8f9a48ce762/docs/connector-development/cdk-faros-js/README.md), which generates and boostraps most of the code required for HTTP Airbyte sources.
+You can build a connector in TypeScript/JavaScript with the [Faros AI CDK](https://github.com/airbytehq/airbyte/tree/01b905a38385ca514c2d9c07cc44a8f9a48ce762/docs/connector-development/cdk-js/README.md), which generates and boostraps most of the code required for HTTP Airbyte sources.
 
 ## The Airbyte specification
 

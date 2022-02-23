@@ -6,9 +6,9 @@ sidebar_position: 4
 
 ## High-Level Overview
 
-{% hint style="info" %}
+:::info
 The high-level overview contains all the information you need to use Basic Normalization when pulling from APIs. Information past that can be read for advanced or educational purposes.
-{% endhint %}
+:::
 
 When you run your first Airbyte sync without the basic normalization, you'll notice that your data gets written to your destination as one data column with a JSON blob that contains all of your data. This is the `_airbyte_raw_` table that you may have seen before. Why do we create this table? A core tenet of ELT philosophy is that data should be untouched as it moves through the E and L stages so that the raw data is always accessible. If an unmodified version of the data exists in the destination, it can be retransformed without needing to sync data again.
 
@@ -96,14 +96,14 @@ In Airbyte, the current normalization option is implemented using a dbt Transfor
 
 ## Destinations that Support Basic Normalization
 
-* [BigQuery](../integrations/destinations/bigquery.md)
-* [MS Server SQL](../integrations/destinations/mssql.md)
-* [MySQL](../integrations/destinations/mysql.md)
+* [BigQuery](../connector-catalog/destinations/bigquery.md)
+* [MS Server SQL](../connector-catalog/destinations/mssql.md)
+* [MySQL](../connector-catalog/destinations/mysql.md)
   * The server must support the `WITH` keyword.
   * Require MySQL &gt;= 8.0, or MariaDB &gt;= 10.2.1.
-* [Postgres](../integrations/destinations/postgres.md)
-* [Redshift](../integrations/destinations/redshift.md)
-* [Snowflake](../integrations/destinations/snowflake.md)
+* [Postgres](../connector-catalog/destinations/postgres.md)
+* [Redshift](../connector-catalog/destinations/redshift.md)
+* [Snowflake](../connector-catalog/destinations/snowflake.md)
 
 Basic Normalization can be used in each of these destinations by configuring the "basic normalization" field to true when configuring the destination in the UI.
 

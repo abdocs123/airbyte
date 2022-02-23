@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Deploying Airbyte Open-Source just takes two steps.
 
-1. Install Docker on your workstation \(see [instructions](https://www.docker.com/products/docker-desktop)\). Make sure you're on the latest version of `docker-compose`.
+1. Install Docker on your workstation (see [instructions](https://www.docker.com/products/docker-desktop)). Make sure you're on the latest version of `docker-compose`.
 2. Run the following commands in your terminal:
 
 ```bash

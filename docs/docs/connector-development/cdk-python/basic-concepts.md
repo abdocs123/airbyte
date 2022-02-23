@@ -66,5 +66,5 @@ A summary of what we've covered so far on how to use the Airbyte CDK:
 
 ## HTTP Streams
 
-We've covered how the `AbstractSource` works with the `Stream` interface in order to fulfill the Airbyte Specification. Although developers are welcome to implement their own object, the CDK saves developers the hassle of doing so in the case of HTTP APIs with the [`HTTPStream`](http-streams.md) object.
+We've covered how the `AbstractSource` works with the `Stream` interface in order to fulfill the Airbyte Specification. Although developers are welcome to implement their own object, the CDK saves developers the hassle of doing so in the case of HTTP APIs with the [`HTTPStream`](./http-streams.md) object.
 

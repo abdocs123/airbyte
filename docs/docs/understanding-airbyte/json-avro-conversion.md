@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# Json to Avro Conversion for Blob Storage Destinations
+# Json to Avro Conversion
 
 When an Airbyte data stream is synced to the Avro or Parquet format (e.g. Parquet on S3), the source Json schema is converted to an Avro schema, then the Json object is converted to an Avro record based on the Avro schema (and further to Parquet if necessary). Because the data stream can come from any data source, the Json to Avro conversion process has the following rules and limitations.
 

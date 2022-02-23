@@ -1,9 +1,10 @@
 ---
-sidebar_position: 7
-description: A high level view of Airbyte's components.
+sidebar_position: 7 
 ---
 
 # Architecture overview
+
+A high level view of Airbyte's components.
 
 Airbyte is conceptually composed of two parts: platform and connectors. 
 

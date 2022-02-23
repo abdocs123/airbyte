@@ -6,7 +6,7 @@ sidebar_position: 14
 
 ### Airbyte CDK
 
-The Airbyte CDK (Connector Development Kit) allows you to create connectors for Sources or Destinations. If your source or destination doesn't exist, you can use the CDK to make the building process a lot easier. It generates all the tests and files you need and all you need to do is write the connector-specific code for your source or destination. We created one in Python which you can check out [here](../connector-development/cdk-python/) and the Faros AI team created a Javascript/Typescript one that you can check out [here](../connector-development/cdk-faros-js.md).
+The Airbyte CDK (Connector Development Kit) allows you to create connectors for Sources or Destinations. If your source or destination doesn't exist, you can use the CDK to make the building process a lot easier. It generates all the tests and files you need and all you need to do is write the connector-specific code for your source or destination. We created one in Python which you can check out [here](../connector-development/cdk-python/) and the Faros AI team created a Javascript/Typescript one that you can check out [here](../connector-development/cdk-js.md).
 
 ### DAG
 
@@ -20,9 +20,9 @@ DAG stands for **Directed Acyclic Graph**. It's a term originally coined by math
 
 Stands for **E**xtract, **T**ransform, and **L**oad and **E**xtract, **L**oad, and **T**ransform, respectively.
 
-**Extract**: Retrieve data from a [source](../integrations/sources/), which can be an application, database, anything really.
+**Extract**: Retrieve data from a [source](../connector-catalog/sources/), which can be an application, database, anything really.
 
-**Load**: Move data to your [destination](../integrations/destinations/).
+**Load**: Move data to your [destination](../connector-catalog/destinations/).
 
 **Transform**: Clean up the data. This is referred to as [normalization](basic-normalization.md) in Airbyte and involves [deduplication](connections/incremental-deduped-history.md), changing data types, formats, and more.
 
@@ -46,24 +46,24 @@ Airbyte spits out tables with the prefix `_airbyte_raw_`. This is your replicate
 
 ### AirbyteCatalog
 
-{% hint style="info" %}
+:::info
 This is only relevant for individuals who want to create a connector.
-{% endhint %}
+:::
 
 This refers to how you define the data that you can retrieve from a Source. For example, if you want to retrieve information from an API, the data that you can receive needs to be defined clearly so that Airbyte can have a clear expectation of what endpoints are supported and what the objects that the streams return look like. This is represented as a sort of schema that Airbyte can interpret. Learn more [here](beginners-guide-to-catalog.md).
 
 ### Airbyte Specification
 
-{% hint style="info" %}
+:::info
 This is only relevant for individuals who want to create a connector.
-{% endhint %}
+:::
 
 This refers to the functions that a Source or Destination must implement to successfully retrieve data and load it, respectively. Implementing these functions using the Airbyte Specification makes a Source or Destination work correctly. Learn more [here](airbyte-specification.md).
 
 ### Temporal
 
-{% hint style="info" %}
+:::info
 This is only relevant for individuals who want to learn about or contribute to our underlying platform.
-{% endhint %}
+:::
 
 [Temporal](https://temporal.io) is a development kit that lets you create workflows, parallelize them, and handle failures/retries gracefully. We use it to reliably schedule each step of the ELT process, and a Temporal service is always deployed with each Airbyte installation.

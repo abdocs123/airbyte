@@ -2,7 +2,7 @@
 sidebar_position: 12
 ---
 
-# Securing Airbyte access
+# Securing Airbyte
 
 Airbyte, in its open-source version, does not support RBAC to manage access to the UI.
 
