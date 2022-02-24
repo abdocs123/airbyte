@@ -16,7 +16,7 @@ In Airbyte, all interactions with connectors are run as jobs performed by a Work
 The worker has 4 main responsibilities in its lifecycle. 
 
 1. Spin up any connector docker containers that are needed for the job. 
-2. They facilitate message passing to or from a connector docker container \(more on this [below](./jobs.md#message-passing)). 
+2. They facilitate message passing to or from a connector docker container \(more on this [below](./workers-and-jobs.md#message-passing)). 
 3. Shut down any connector docker containers that it started. 
 4. Return the output of the job. \(See [Airbyte Specification](./airbyte-specification.md) to understand the output of each worker type.\)
 

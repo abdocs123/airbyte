@@ -763,7 +763,7 @@ Other progress on connectors:
 
 ## 11/04/2020
 
-**New sources:** [Facebook Ads](connectors.md), [Google Ads](../../connector-catalog/sources/google-adwords.md), [Marketo](../../connector-catalog/sources/marketo.md) **New destination:** [Snowflake](../../connector-catalog/destinations/snowflake.md)
+**New sources:** [Facebook Ads](connectors.md), [Marketo](../../connector-catalog/sources/marketo.md) **New destination:** [Snowflake](../../connector-catalog/destinations/snowflake.md)
 
 ## 10/30/2020
 

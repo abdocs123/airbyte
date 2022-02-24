@@ -48,7 +48,6 @@ Airbyte uses a grading system for connectors to help users understand what to ex
 | [GitHub](sources/github.md) | Beta |
 | [GitLab](sources/gitlab.md) | Beta |
 | [Google Ads](sources/google-ads.md) | Beta |
-| [Google Adwords](sources/google-adwords.md) | Beta |
 | [Google Analytics v4](sources/google-analytics-v4.md) | Beta |
 | [Google Directory](sources/google-directory.md) | Certified |
 | [Google Search Console](sources/google-search-console.md) | Beta |
@@ -152,7 +151,6 @@ Airbyte uses a grading system for connectors to help users understand what to ex
 | [Elasticsearch](destinations/elasticsearch.md) | Alpha |
 | [End-to-End Testing](destinations/e2e-test.md) | Beta |
 | [Google Cloud Storage \(GCS\)](destinations/gcs.md) | Alpha |
-| [Google Firestore](destinations/firestore.md) | Alpha |
 | [Google Pubsub](destinations/pubsub.md) | Alpha |
 | [Kafka](destinations/kafka.md) | Alpha |
 | [Keen](destinations/keen.md) | Alpha |
