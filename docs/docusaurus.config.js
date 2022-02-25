@@ -17,7 +17,7 @@ const config = {
     organizationName: 'airbyte', // Usually your GitHub org/user name.
     projectName: 'airbyte', // Usually your repo name.
 
-    plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
+    plugins: [[require.resolve('@cmfcmf/docusaurus-search-local'), {indexBlog: false}]],
 
     presets: [
         [
