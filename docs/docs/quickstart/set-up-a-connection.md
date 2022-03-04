@@ -1,13 +1,18 @@
 ---
 sidebar_position: 4
+description: ''
 ---
 # Set up a Connection
+
+---
 
 When we create the connection, we can select which data stream we want to replicate. We can also select if we want an incremental replication, although it isn't currently offered for this source. The replication will run at the specified sync frequency.
 
 To set it up, just follow the instructions on the screenshot below.
 
 ![](../.gitbook/assets/getting-started-connection.png)
+
+---
 
 ## Check the logs of your first sync
 
@@ -16,6 +21,8 @@ After you've completed the onboarding, you will be redirected to the source list
 From there, you can look at the logs, download them, force a sync and adjust the configuration of your connection.
 
 ![](../.gitbook/assets/getting-started-logs.png)
+
+---
 
 ## Check the data of your first sync
 
@@ -37,6 +44,8 @@ jq '._airbyte_data | {abilities: .abilities, weight: .weight}'
 And there you have it. You've pulled data from an API directly into a file, with all of the actual configuration for this replication only taking place in the UI.
 
 Note: If you are using Airbyte on Windows with WSL2 and Docker, refer to [this tutorial](../operator-guides/windows-locating-files-local-destination.md) or [this section](../connector-catalog/destinations/local-json.md#access-replicated-data-files) in the local-json destination guide to locate the replicated folder and file.
+
+---
 
 ## That's it!
 

@@ -5,9 +5,9 @@ sidebar_position: 1
 
 # Introduction
 
-[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&label=Star&maxAge=2592000)](https://GitHub.com/airbytehq/airbyte/stargazers/) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/airbytehq/airbyte/Airbyte%20CI)](https://github.com/airbytehq/airbyte/actions/workflows/gradle.yml) [![License](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen)](https://github.com/airbytehq/airbyte/tree/a9b1c6c0420550ad5069aca66c295223e0d05e27/LICENSE/README.md) [![License](https://img.shields.io/static/v1?label=license&message=ELv2&color=brightgreen)](https://github.com/airbytehq/airbyte/tree/a9b1c6c0420550ad5069aca66c295223e0d05e27/LICENSE/README.md)
+___
 
-![](../docs/.gitbook/assets/airbyte_new_logo.svg)
+[![GitHub stars](https://img.shields.io/github/stars/airbytehq/airbyte?style=social&label=Star&maxAge=2592000)](https://GitHub.com/airbytehq/airbyte/stargazers/) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/airbytehq/airbyte/Airbyte%20CI)](https://github.com/airbytehq/airbyte/actions/workflows/gradle.yml) [![License](https://img.shields.io/static/v1?label=license&message=MIT&color=brightgreen)](https://github.com/airbytehq/airbyte/tree/a9b1c6c0420550ad5069aca66c295223e0d05e27/LICENSE/README.md) [![License](https://img.shields.io/static/v1?label=license&message=ELv2&color=brightgreen)](https://github.com/airbytehq/airbyte/tree/a9b1c6c0420550ad5069aca66c295223e0d05e27/LICENSE/README.md)
 
 **Data integration made simple, secure and extensible.**  
 The new open-source standard to sync data from applications, APIs & databases to warehouses, lakes & other destinations.
@@ -27,7 +27,15 @@ Airbyte is on a mission to make data integration pipelines a commodity.
 
 Here's a list of our [connectors with their health status](connector-catalog/README.md).
 
-## Quick start
+___
+
+export const Header = ({children}) => (
+  <h2>
+    {children}
+  </h2>
+);
+
+<Header>Quick start</Header> 
 
 ```bash
 git clone https://github.com/airbytehq/airbyte.git
@@ -39,7 +47,9 @@ Now visit [http://localhost:8000](http://localhost:8000)
 
 Here is a [step-by-step guide](https://github.com/airbytehq/airbyte/tree/e378d40236b6a34e1c1cb481c8952735ec687d88/docs/quickstart/getting-started.md) showing you how to load data from an API into a file, all on your computer.
 
-## Features
+___
+
+<Header>Features</Header> 
 
 * **Built for extensibility**: Adapt an existing connector to your needs or build a new one with ease.
 * **Optional normalized schemas**: Entirely customizable, start with raw data or from some suggestion of normalized data.
@@ -51,7 +61,9 @@ Here is a [step-by-step guide](https://github.com/airbytehq/airbyte/tree/e378d40
 
 [See more on our website.](https://airbyte.io/features/)
 
-## Contributing
+___
+
+<Header>Contributing</Header> 
 
 We love contributions to Airbyte, big or small.
 
@@ -61,7 +73,9 @@ See our [Contributing guide](contributing-to-airbyte/) on how to get started. No
 
 **Also, we will never ask you to maintain your connector. The goal is that the Airbyte team and the community helps maintain it, let's call it crowdsourced maintenance!**
 
-## Community support
+___
+
+<Header>Community support</Header> 
 
 For general help using Airbyte, please refer to the official Airbyte documentation. For additional help, you can use one of these channels to ask a question:
 
@@ -70,11 +84,15 @@ For general help using Airbyte, please refer to the official Airbyte documentati
 * [Twitter](https://twitter.com/airbytehq) \(Get the news fast\)
 * [Weekly office hours](https://airbyte.io/weekly-office-hours/) \(Live informal 30-minute video call sessions with the Airbyte team\)
 
-## Roadmap
+___
+
+<Header>Roadmap</Header> 
 
 Check out our [roadmap](project-overview/roadmap.md) to get informed on what we are currently working on, and what we have in mind for the next weeks, months and years.
 
-## License
+___
+
+<Header>License</Header> 
 
 See the [LICENSE](project-overview/licenses/) file for licensing information, and our [FAQ](project-overview/licenses/license-faq.md) for any questions you may have on that topic. 
 

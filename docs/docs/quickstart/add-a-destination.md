@@ -1,7 +1,10 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 # Add a Destination
+
+---
 
 The destination we are creating is a simple JSON line file, meaning that it will contain one JSON object per line. Each objects will represent data extracted from the source.
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: ''
 ---
 # Deploy Airbyte
 
@@ -17,6 +18,8 @@ docker-compose up
 Once you see an Airbyte banner, the UI is ready to go at [http://localhost:8000](http://localhost:8000)!
 
 Alternatively, if you have an Airbyte Cloud invite, just follow [these steps.](../deploying-airbyte/on-cloud.md)
+
+---
 
 ## FAQ
 

@@ -1,7 +1,10 @@
 ---
 sidebar_position: 2
+description: ''
 ---
 # Add a Source
+
+---
 
 You can either follow this tutorial from the onboarding or through the UI, where you can first navigate to the `Sources` tab on the left bar.
 
