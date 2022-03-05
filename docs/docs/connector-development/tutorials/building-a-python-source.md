@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 
 # Building a Python Source
@@ -12,7 +13,7 @@ This article provides a checklist for how to create a python source. Each step i
 
 Docker, Python, and Java with the versions listed in the [tech stack section](../../understanding-airbyte/tech-stack.md).
 
-:::info
+:::info note
 All the commands below assume that `python` points to a version of python &gt;3.7. On some systems, `python` points to a Python2 installation and `python3` points to Python3. If this is the case on your machine, substitute all `python` commands in this guide with `python3` . Otherwise, make sure to install Python 3 before beginning.
 :::
 
@@ -33,11 +34,11 @@ All the commands below assume that `python` points to a version of python &gt;3.
 * Step 11: Add the connector to the API/UI \(by adding an entry in `airbyte-config/init/src/main/resources/seed/source_definitions.yaml`\)
 * Step 12: Add docs \(in `docs/integrations/sources/<source-name>.md`\)
 
-:::info
+:::info note
 Each step of the Creating a Source checklist is explained in more detail below.
 :::
 
-:::info
+:::info note
 All `./gradlew` commands must be run from the root of the airbyte project.
 :::
 
@@ -49,7 +50,7 @@ All `./gradlew` commands must be run from the root of the airbyte project.
 * Once the config is stored in Github Secrets, edit `.github/workflows/test-command.yml` and `.github/workflows/publish-command.yml` to inject the config into the build environment.
 * Edit the `airbyte/tools/bin/ci_credentials.sh` script to pull the script from the build environment and write it to `secrets/config.json` during the build.
 
-:::info
+:::info note
 If you have a question about a step the Submitting a Source to Airbyte checklist include it in your PR or ask it on [slack](https://slack.airbyte.io).
 :::
 
@@ -100,7 +101,7 @@ The commands we ran above created a virtual environment for your source. If you 
 
 Pretty much all it takes to create a source is to implement the `Source` interface. The template fills in a lot of information for you and has extensive docstrings describing what you need to do to implement each method. The next 4 steps are just implementing that interface.
 
-:::info
+:::info note
 All logging should be done through the `logger` object passed into each method. Otherwise, logs will not be shown in the Airbyte UI.
 :::
 
@@ -179,7 +180,7 @@ The Standard Tests are a set of tests that run against all sources. These tests 
 
 You can run the tests using `./gradlew :airbyte-integrations:connectors:source-<source-name>:integrationTest`. Make sure to run this command from the Airbyte repository root.
 
-:::info
+:::info note
 In some rare cases we make exceptions and allow a source to not need to pass all the standard tests. If for some reason you think your source cannot reasonably pass one of the tests cases, reach out to us on github or slack, and we can determine whether there's a change we can make so that the test will pass or if we should skip that test for your source.
 :::
 

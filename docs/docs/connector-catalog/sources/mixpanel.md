@@ -1,5 +1,6 @@
 ---
 sidebar_position: 71
+description: ''
 ---
 
 # Mixpanel

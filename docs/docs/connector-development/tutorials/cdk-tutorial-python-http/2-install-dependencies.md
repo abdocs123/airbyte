@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Step 2: Install Dependencies
 
 Now that you've generated the module, let's navigate to its directory and install dependencies:

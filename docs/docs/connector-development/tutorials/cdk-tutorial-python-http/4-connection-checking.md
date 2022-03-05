@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Step 4: Connection Checking
 
 The second operation in the Airbyte Protocol that we'll implement is the `check` operation.

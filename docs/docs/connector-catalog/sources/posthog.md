@@ -1,5 +1,6 @@
 ---
 sidebar_position: 94
+description: ''
 ---
 
 # PostHog

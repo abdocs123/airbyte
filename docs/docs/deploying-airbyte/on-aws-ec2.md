@@ -1,10 +1,11 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 
 # On AWS (EC2)
 
-:::info
+:::info note
 The instructions have been tested on `Amazon Linux 2 AMI (HVM)`
 :::
 
@@ -15,6 +16,7 @@ The instructions have been tested on `Amazon Linux 2 AMI (HVM)`
 ![](../.gitbook/assets/aws_ec2_launch.png)
 
 * Select instance AMI
+
 
 ![](../.gitbook/assets/aws_ec2_ami.png)
 
@@ -48,10 +50,12 @@ The instructions have been tested on `Amazon Linux 2 AMI (HVM)`
 
 * Wait for the instance to become `Running`
 
+---
+
 ## Install environment
 
-:::info
-Note: The following commands will be entered either on your local terminal or in your ssh session on the instance terminal. The comments above each command block will indicate where to enter the commands.
+:::info note
+The following commands will be entered either on your local terminal or in your ssh session on the instance terminal. The comments above each command block will indicate where to enter the commands.
 :::
 
 * Connect to your instance
@@ -110,13 +114,13 @@ docker-compose up -d
 
 ## Connect to Airbyte
 
-:::danger
+:::danger warning
 For security reasons, we strongly recommend to not expose Airbyte on Internet available ports. Future versions will add support for SSL & Authentication.
 :::
 
 * Create ssh tunnel for port 8000
 
-:::info
+:::info note
 If you want to use different ports you will need to modify `API_URL` in your `.env` file and restart Airbyte.
 :::
 

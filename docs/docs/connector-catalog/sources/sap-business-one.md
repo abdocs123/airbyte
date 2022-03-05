@@ -1,5 +1,6 @@
 ---
 sidebar_position: 102
+description: ''
 ---
 
 # SAP Business One
@@ -10,7 +11,7 @@ sidebar_position: 102
 
 SAP Business One can run on the MSSQL or SAP HANA databases. If your instance is deployed on MSSQL, you can use Airbyte to sync your SAP Business One instance by using the [MSSQL connector](mssql.md).
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

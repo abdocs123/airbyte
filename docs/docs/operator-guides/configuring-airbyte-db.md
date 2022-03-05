@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 
 # Configuring the Airbyte Database
@@ -62,7 +63,7 @@ CONFIG_DATABASE_URL=jdbc:postgresql://<host>:<port>/<database>?<extra-parameters
 
 ## Initializing the database
 
-:::info
+:::info note
 This step is only required when you setup Airbyte with a custom database for the first time.
 :::
 

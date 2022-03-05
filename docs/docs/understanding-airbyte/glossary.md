@@ -1,5 +1,6 @@
 ---
 sidebar_position: 14
+description: ''
 ---
 
 # Glossary of Terms
@@ -46,7 +47,7 @@ Airbyte spits out tables with the prefix `_airbyte_raw_`. This is your replicate
 
 ### AirbyteCatalog
 
-:::info
+:::info note
 This is only relevant for individuals who want to create a connector.
 :::
 
@@ -54,7 +55,7 @@ This refers to how you define the data that you can retrieve from a Source. For 
 
 ### Airbyte Specification
 
-:::info
+:::info note
 This is only relevant for individuals who want to create a connector.
 :::
 
@@ -62,7 +63,7 @@ This refers to the functions that a Source or Destination must implement to succ
 
 ### Temporal
 
-:::info
+:::info note
 This is only relevant for individuals who want to learn about or contribute to our underlying platform.
 :::
 

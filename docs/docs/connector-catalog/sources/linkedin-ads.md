@@ -1,5 +1,6 @@
 ---
 sidebar_position: 59
+description: ''
 ---
 
 # LinkedIn Ads

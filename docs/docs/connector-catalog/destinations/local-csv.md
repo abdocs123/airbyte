@@ -1,10 +1,11 @@
 ---
 sidebar_position: 15
+description: ''
 ---
 
 # Local CSV
 
-:::danger
+:::danger warning
 This destination is meant to be used on a local workstation and won't work on Kubernetes
 :::
 

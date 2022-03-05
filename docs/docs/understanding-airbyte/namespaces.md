@@ -1,12 +1,13 @@
 ---
 sidebar_position: 11
+description: ''
 ---
 
 # Namespaces
 
 ## High-Level Overview
 
-:::info
+:::info note
 The high-level overview contains all the information you need to use Namespaces when pulling from APIs. Information past that can be read for advanced or educational purposes.
 :::
 

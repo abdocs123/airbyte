@@ -1,5 +1,6 @@
 ---
 sidebar_position: 118
+description: ''
 ---
 
 # Tempo

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 92
+description: ''
 ---
 
 # PokéAPI

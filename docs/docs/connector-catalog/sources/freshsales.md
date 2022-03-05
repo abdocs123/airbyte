@@ -1,5 +1,6 @@
 ---
 sidebar_position: 36
+description: ''
 ---
 
 # Freshsales

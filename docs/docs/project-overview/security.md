@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: ''
 ---
 
 # Security and Data Privacy at Airbyte

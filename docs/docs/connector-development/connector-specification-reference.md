@@ -85,7 +85,7 @@ this will display a multi-line textbox in the UI like the following screenshot: 
 
 In some cases, a connector needs to accept one out of many options. For example, a connector might need to know the compression codec of the file it will read, which will render in the Airbyte UI as a list of the available codecs. In JSONSchema, this can be expressed using the [oneOf](https://json-schema.org/understanding-json-schema/reference/combining.html#oneof) keyword.
 
-:::info
+:::info note
 Some connectors may follow an older format for dropdown lists, we are currently migrating away from that to this standard.
 :::
 

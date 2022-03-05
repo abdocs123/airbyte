@@ -1,10 +1,11 @@
 ---
 sidebar_position: 16
+description: ''
 ---
 
 # Local JSON
 
-:::danger
+:::danger warning
 This destination is meant to be used on a local workstation and won't work on Kubernetes
 :::
 

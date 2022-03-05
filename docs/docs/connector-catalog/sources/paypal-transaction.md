@@ -1,5 +1,6 @@
 ---
 sidebar_position: 86
+description: ''
 ---
 
 # Paypal Transaction

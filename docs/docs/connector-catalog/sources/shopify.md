@@ -1,5 +1,6 @@
 ---
 sidebar_position: 106
+description: ''
 ---
 
 # Shopify

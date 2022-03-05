@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
+description: ''
 ---
 
 # Local Deployment
 
-:::info
+:::info note
 These instructions have been tested on MacOS, Windows 10 and Ubuntu 20.04.
 :::
 

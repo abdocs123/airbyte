@@ -1,5 +1,6 @@
 ---
 sidebar_position: 66
+description: ''
 ---
 
 # Microsoft Dynamics Customer Engagement
@@ -10,7 +11,7 @@ sidebar_position: 66
 
 MS Dynamics Customer Engagement runs on [MSSQL](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/system-requirements-required-technologies?view=op-9-1) database. You can use the [MSSQL connector](mssql.md) to sync your MS Dynamics Customer Engagement instance by connecting to the underlying database.
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

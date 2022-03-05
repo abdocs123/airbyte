@@ -1,5 +1,6 @@
 ---
 sidebar_position: 125
+description: ''
 ---
 
 # Wordpress
@@ -10,7 +11,7 @@ sidebar_position: 125
 
 Wordpress runs on a MySQL database. You can use Airbyte to sync your Wordpress instance by connecting to the underlying MySQL database and leveraging the [MySQL](mysql.md) connector.
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

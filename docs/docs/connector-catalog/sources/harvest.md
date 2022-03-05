@@ -1,5 +1,6 @@
 ---
 sidebar_position: 47
+description: ''
 ---
 
 # Harvest

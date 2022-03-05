@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 
 # Transformations with Airbyte (Part 3/3)

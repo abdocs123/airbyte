@@ -1,5 +1,6 @@
 ---
 sidebar_position: 127
+description: ''
 ---
 
 # Zencart
@@ -10,7 +11,7 @@ sidebar_position: 127
 
 Zencart runs on a MySQL database. You can use Airbyte to sync your Zencart instance by connecting to the underlying MySQL database and leveraging the [MySQL](mysql.md) connector.
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

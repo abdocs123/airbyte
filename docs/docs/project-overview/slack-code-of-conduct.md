@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: ''
 ---
 
 # Slack Code of Conduct

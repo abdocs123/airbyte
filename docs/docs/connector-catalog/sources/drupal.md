@@ -1,5 +1,6 @@
 ---
 sidebar_position: 28
+description: ''
 ---
 
 # Drupal
@@ -19,7 +20,7 @@ Drupal can run on MySQL, Percona, MariaDb, MSSQL, MongoDB, Postgres, or SQL-Lite
 * [Mongo](mongodb.md)
 * [Postgres](postgres.md)
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 46
+description: ''
 ---
 
 # Greenhouse

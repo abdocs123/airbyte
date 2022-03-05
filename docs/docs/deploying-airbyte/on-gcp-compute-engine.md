@@ -1,10 +1,11 @@
 ---
 sidebar_position: 6
+description: ''
 ---
 
 # On GCP (Compute Engine)
 
-:::info
+:::info note
 The instructions have been tested on `Debian GNU/Linux 10 (buster)`
 :::
 
@@ -24,8 +25,8 @@ The instructions have been tested on `Debian GNU/Linux 10 (buster)`
 
 ## Install environment
 
-:::info
-Note: The following commands will be entered either on your local terminal or in your ssh session on the instance terminal. The comments above each command block will indicate where to enter the commands.
+:::info note
+The following commands will be entered either on your local terminal or in your ssh session on the instance terminal. The comments above each command block will indicate where to enter the commands.
 :::
 
 * Set variables in your terminal
@@ -117,7 +118,7 @@ docker-compose up -d
 
 ## Connect to Airbyte
 
-:::danger
+:::danger warning
 For security reasons, we strongly recommend to not expose Airbyte publicly. Future versions will add support for SSL & Authentication.
 :::
 

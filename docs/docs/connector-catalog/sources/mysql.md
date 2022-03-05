@@ -1,5 +1,6 @@
 ---
 sidebar_position: 75
+description: ''
 ---
 
 # MySQL

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 69
+description: ''
 ---
 
 # Microsoft SQL Server (MSSQL)

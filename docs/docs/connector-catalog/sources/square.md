@@ -1,5 +1,6 @@
 ---
 sidebar_position: 113
+description: ''
 ---
 
 # Square

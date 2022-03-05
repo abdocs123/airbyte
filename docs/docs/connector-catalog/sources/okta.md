@@ -1,5 +1,6 @@
 ---
 sidebar_position: 77
+description: ''
 ---
 
 # Okta
@@ -47,7 +48,7 @@ The connector is restricted by normal Okta [requests limitation](https://develop
 
 In order to pull data out of your Okta instance, you need to create an [API Token](https://developer.okta.com/docs/guides/create-an-api-token/overview/).
 
-:::info
+:::info note
 Different Okta APIs require different admin privilege levels. API tokens inherit the privilege level of the admin account used to create them
 :::
 

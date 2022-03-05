@@ -1,5 +1,6 @@
 ---
 sidebar_position: 21
+description: ''
 ---
 
 # Close.com

@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Mongo DB
 
 The MongoDB source allows to sync data from MongoDb. Source supports Full Refresh and Incremental sync strategies.

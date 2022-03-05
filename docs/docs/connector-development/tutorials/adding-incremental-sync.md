@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Adding Incremental Sync to a Source
 
 ## Overview

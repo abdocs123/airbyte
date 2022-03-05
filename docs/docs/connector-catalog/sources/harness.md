@@ -1,5 +1,6 @@
 ---
 sidebar_position: 48
+description: ''
 ---
 
 # Harness

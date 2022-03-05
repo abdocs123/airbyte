@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: ''
 ---
 
 # Building a Java Destination
@@ -25,11 +26,11 @@ Docker and Java with the versions listed in the [tech stack section](../../under
 * Step 7: Write unit tests or integration tests
 * Step 8: Update the docs \(in `docs/integrations/destinations/<destination-name>.md`\)
 
-:::info
+:::info note
 All `./gradlew` commands must be run from the root of the airbyte project.
 :::
 
-:::info
+:::info note
 If you need help with any step of the process, feel free to submit a PR with your progress and any questions you have, or ask us on [slack](https://slack.airbyte.io).
 :::
 
@@ -65,7 +66,7 @@ export DOCKER_BUILD_PLATFORM=linux/amd64
 
 this compiles the java code for your destination and builds a Docker image with the connector. At this point, we haven't implemented anything of value yet, but once we do, you'll use this command to compile your code and Docker image.
 
-:::info
+:::info note
 Airbyte uses Gradle to manage Java dependencies. To add dependencies for your connector, manage them in the `build.gradle` file inside your connector's directory.
 :::
 
@@ -168,7 +169,7 @@ To implement the `write` Airbyte operation, implement the `getConsumer` method i
 * [Local CSV](https://github.com/airbytehq/airbyte/blob/master/airbyte-integrations/connectors/destination-csv/src/main/java/io/airbyte/integrations/destination/csv/CsvDestination.java#L90)
 * [Postgres](https://github.com/airbytehq/airbyte/blob/master/airbyte-integrations/connectors/destination-postgres/src/main/java/io/airbyte/integrations/destination/postgres/PostgresDestination.java)
 
-:::info
+:::info note
 The Postgres destination leverages the `AbstractJdbcDestination` superclass which makes it extremely easy to create a destination for a database or data warehouse if it has a compatible JDBC driver. If the destination you are implementing has a JDBC driver, be sure to check out `AbstractJdbcDestination`.
 :::
 

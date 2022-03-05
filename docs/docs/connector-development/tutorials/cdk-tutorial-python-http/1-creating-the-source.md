@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Step 1: Creating the Source
 
 Airbyte provides a code generator which bootstraps the scaffolding for our connector.

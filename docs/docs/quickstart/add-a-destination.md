@@ -10,7 +10,7 @@ The resulting files will be located in `/tmp/airbyte_local/json_data`
 
 To set it up, just follow the instructions on the screenshot below.
 
-:::info
+:::info note
 You might have to wait ~30 seconds before the fields show up because it is the first time you're using Airbyte.
 :::
 

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 124
+description: ''
 ---
 
 # WooCommerce

@@ -1,10 +1,11 @@
 ---
 sidebar_position: 5
+description: ''
 ---
 
 # On Azure(VM)
 
-:::info
+:::info note
 The instructions have been tested on `Azure VM Linux (ubuntu 18.04)`
 :::
 
@@ -122,11 +123,11 @@ sudo docker-compose up -d
 
 ## Connect to Airbyte
 
-:::danger
+:::danger warning
 For security reasons, we strongly recommend to not expose Airbyte on Internet available ports. Future versions will add support for SSL & Authentication.
 :::
 
-:::info
+:::info note
 This part assumes that you have access to a terminal on your workstation
 :::
 

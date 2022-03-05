@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: ''
 ---
 
 # Python CDK Speedrun: Creating a Source

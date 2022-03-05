@@ -1,5 +1,6 @@
 ---
 sidebar_position: 49
+description: ''
 ---
 
 # HubSpot
@@ -62,7 +63,7 @@ Depending on the type of engagement, different properties will be set for that o
 * Api credentials
 * If using Oauth, [scopes](https://legacydocs.hubspot.com/docs/methods/oauth2/initiate-oauth-integration#scopes) enabled for the streams you want to sync
 
-:::info
+:::info note
 HubSpot's API will [rate limit](https://developers.hubspot.com/docs/api/usage-details) the amount of records you can sync daily, so make sure that you are on the appropriate plan if you are planning on syncing more than 250,000 records per day.
 :::
 

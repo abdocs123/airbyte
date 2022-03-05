@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Step 3: Define Inputs
 
 Each connector declares the inputs it needs to read data from the underlying data source. This is the Airbyte Protocol's `spec` operation.

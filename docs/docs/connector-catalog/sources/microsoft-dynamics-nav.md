@@ -1,5 +1,6 @@
 ---
 sidebar_position: 68
+description: ''
 ---
 
 # Microsoft Dynamics NAV
@@ -10,7 +11,7 @@ sidebar_position: 68
 
 MS Dynamics NAV runs on the [MSSQL](https://docs.microsoft.com/en-us/dynamics-nav/installation-considerations-for-microsoft-sql-server) database. You can use the [MSSQL connector](mssql.md) to sync your MS Dynamics NAV instance by connecting to the underlying database.
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

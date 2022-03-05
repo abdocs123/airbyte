@@ -1,5 +1,6 @@
 ---
 sidebar_position: 79
+description: ''
 ---
 
 # OpenWeather

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: ''
 ---
 
 # Transformations with dbt (Part 2/3)

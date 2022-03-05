@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Step 6: Read Data
 
 Describing schemas is good and all, but at some point we have to start reading data! So let's get to work. But before, let's describe what we're about to do:

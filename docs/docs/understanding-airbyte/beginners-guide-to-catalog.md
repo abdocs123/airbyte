@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: ''
 ---
 
 # A Beginner's Guide to the AirbyteCatalog

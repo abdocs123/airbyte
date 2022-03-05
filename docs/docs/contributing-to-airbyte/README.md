@@ -28,7 +28,7 @@ It's easy to add your own connector to Airbyte! **Since Airbyte connectors are e
 
 For sources, simply head over to our [Python CDK](../connector-development/cdk-python/).
 
-:::info
+:::info note
 The CDK currently does not support creating destinations, but it will very soon.
 :::
 

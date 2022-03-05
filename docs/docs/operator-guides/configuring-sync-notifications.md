@@ -1,3 +1,7 @@
+---
+description: ''
+---
+
 # Configuring Sync Notifications
 
 ## Overview

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 65
+description: ''
 ---
 
 # Microsoft Dynamics AX

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: ''
 ---
 
 # Transformations with SQL (Part 1/3)

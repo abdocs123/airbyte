@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+description: ''
 ---
 
 # Using the Airflow Airbyte Operator

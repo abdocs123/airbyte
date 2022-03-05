@@ -1,5 +1,6 @@
 ---
 sidebar_position: 16
+description: ''
 ---
 
 # Braintree

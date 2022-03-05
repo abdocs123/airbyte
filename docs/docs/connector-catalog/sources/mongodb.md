@@ -1,5 +1,6 @@
 ---
 sidebar_position: 73
+description: ''
 ---
 
 # Mongo DB

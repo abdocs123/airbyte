@@ -1,5 +1,6 @@
 ---
 sidebar_position: 25
+description: ''
 ---
 
 # Db2

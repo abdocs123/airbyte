@@ -1,5 +1,6 @@
 ---
 sidebar_position: 62
+description: ''
 ---
 
 # Magento
@@ -10,7 +11,7 @@ sidebar_position: 62
 
 Magento runs on MySQL. You can use Airbyte to sync your Magento instance by connecting to the underlying database using the [MySQL connector](mysql.md).
 
-:::info
+:::info note
 Reach out to your service representative or system admin to find the parameters required to connect to the underlying database
 :::
 

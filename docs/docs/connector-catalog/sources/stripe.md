@@ -1,5 +1,6 @@
 ---
 sidebar_position: 115
+description: ''
 ---
 
 # Stripe

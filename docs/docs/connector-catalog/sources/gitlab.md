@@ -1,5 +1,6 @@
 ---
 sidebar_position: 39
+description: ''
 ---
 
 # GitLab

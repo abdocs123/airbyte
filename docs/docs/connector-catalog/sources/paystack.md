@@ -1,5 +1,6 @@
 ---
 sidebar_position: 87
+description: ''
 ---
 
 # Paystack

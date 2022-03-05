@@ -1,10 +1,11 @@
 ---
 sidebar_position: 4
+description: ''
 ---
 
 # On AWS ECS (Coming Soon)
 
-:::info
+:::info note
 We do not currently support deployment on ECS.
 :::
 
